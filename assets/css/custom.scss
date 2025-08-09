@@ -1,0 +1,8 @@
+/* Fix dark mode News section contrast */
+/* Force readable News text in dark mode */
+html[data-theme="dark"] .news th,
+html[data-theme="dark"] .news td,
+html[data-theme="dark"] .news a,
+html[data-theme="dark"] .news .news-title {
+  color: #e0e0e0 !important;
+}
