@@ -46,7 +46,8 @@
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
           {% endfor %}
 
-          <!-- About -->
+          <!-- About (COMMENTING FOR NOW) -->
+          {%- comment -%}
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
               {{- about_title }}
@@ -55,6 +56,7 @@
               {% endif %}
             </a>
           </li>
+          {%- endcomment -%}
 
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
