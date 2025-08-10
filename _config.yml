@@ -46,8 +46,8 @@ permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
 # Pagination
-pagination:
-  enabled: true
+paginate: 10
+paginate_path: "/blog/page:num/"
 
 related_blog_posts:
   enabled: true
@@ -85,6 +85,9 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
+  toc_levels: 1..6
+  auto_ids: true
+  hard_wrap: false
   syntax_highlighter_opts:
     css_class: "highlight"
     span:
@@ -121,11 +124,12 @@ keep_files:
 
 # Plug-ins
 plugins:
+  - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-paginate-v2
-  - jekyll-toc
-  - jekyll-link-attributes
+  - jekyll-seo-tag
+  - jekyll-scholar
+  - jekyll-email-protect
   - jemoji
 
 sass:

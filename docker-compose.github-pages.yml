@@ -1,0 +1,18 @@
+services:
+  github-pages:
+    image: ruby:3.1
+    working_dir: /srv/jekyll
+    command: >
+      bash -c "
+        bundle config set --local path 'vendor/bundle' &&
+        bundle config build.sassc --disable-march-tune-native &&
+        bundle install &&
+        JEKYLL_ENV=production bundle exec jekyll serve --host 0.0.0.0 --port 4000
+      "
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/srv/jekyll
+    environment:
+      - JEKYLL_ENV=production
+      - BUNDLE_PATH=/srv/jekyll/vendor/bundle
