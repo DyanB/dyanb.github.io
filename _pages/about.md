@@ -25,9 +25,9 @@ latest_posts:
 
 I’m a Software Engineer passionate about building efficient, scalable, and intelligent systems.
 
-I hold a Master’s in Computer Science from New York University (NYU), with expertise in Retrieval-Augmented Generation (RAG) systems, cloud-native development on AWS, and fine-tuning state-of-the-art Large Language Models (LLMs).
+I hold a Master’s in Computer Science from New York University (NYU), with expertise in building Retrieval-Augmented Generation (RAG) systems, developing cloud-native solutions on AWS, and fine-tuning Large Language Models (LLMs).
 
-At NYU, I served as a Teaching Assistant for graduate courses in Big Data and High Performance Machine Learning. I also wrote software for a Spectrum Sensing Processor Simulator developed by the BAAHL Lab.
+At NYU, I served as a Teaching Assistant for graduate courses in Big Data and High Performance Machine Learning. I also wrote software for a Spectrum Sensing Processor Simulator developed by the BAAHL Lab at NYU.
 
 Previously, I spent 2.5 years as a Software Engineer, building enterprise web applications with Angular, TypeScript, .NET Core, and SQL Server. I gained strong proficiency in REST API design, relational database optimization, and CI/CD pipeline development.
 
